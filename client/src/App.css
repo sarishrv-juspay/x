@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* font-family and background-color are inherited from body in index.css */
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px; /* Max width for main content area */
+  margin: 0 auto; /* Center main content */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+footer {
+  background-color: #ffffff; /* White background for footer */
+  color: #6c757d; /* Secondary text color for footer */
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid #dee2e6; /* Subtle border */
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px; /* Space between nav items */
+}
+
+footer p {
+  margin-bottom: 10px; /* Space below copyright */
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #007bff; /* Primary blue for links */
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}

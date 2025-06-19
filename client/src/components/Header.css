@@ -1,0 +1,47 @@
+header {
+  background-color: #ffffff; /* White background for header */
+  color: #343a40; /* Inherited from body */
+  padding: 15px 20px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  font-size: 2em; /* Slightly smaller h1 */
+  margin-bottom: 15px;
+  color: #343a40;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between nav items */
+}
+
+nav a {
+  color: #007bff;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+}
+
+.cart-count {
+  background-color: #dc3545; /* Red background for count */
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8em;
+  margin-left: 5px;
+  vertical-align: super; /* Align with text better */
+}

@@ -1,0 +1,67 @@
+.product-card {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #dee2e6; /* Subtle border */
+  border-radius: 0.25rem; /* Standard border radius */
+  padding: 20px;
+  margin: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow */
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  transform: translateY(-3px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px; /* Adjusted height */
+  object-fit: cover;
+  border-radius: 0.25rem 0.25rem 0 0; /* Rounded top corners */
+  margin-bottom: 15px;
+}
+
+.product-card h2 {
+  font-size: 1.25em; /* Adjusted heading size */
+  margin-bottom: 10px;
+  color: #343a40; /* Consistent text color */
+}
+
+.product-card p {
+  font-size: 0.9em; /* Adjusted paragraph size */
+  color: #6c757d; /* Secondary text color */
+  margin-bottom: 15px;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+  font-size: 0.9em;
+  font-weight: bold; /* Make button text bolder */
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+.product-card button:active {
+  transform: scale(0.95); /* Click effect */
+}
+
+
+.product-card button + button {
+  margin-left: 10px;
+  background-color: #28a745; /* Different color for second button if needed, e.g., Buy Now */
+}
+.product-card button + button:hover {
+  background-color: #218838;
+}

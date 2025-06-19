@@ -1,0 +1,168 @@
+.cart-page {
+  padding: 20px;
+  max-width: 1000px; /* Slightly wider for better layout */
+  margin: 20px auto; /* Add some top/bottom margin */
+  background-color: #f8f9fa; /* Consistent with body background */
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.cart-page > h1 { /* Target only the main h1 of the page */
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.2em; /* Slightly larger */
+  color: #343a40;
+}
+
+.cart-page h2 {
+  font-size: 1.6em; /* Consistent h2 size */
+  margin-bottom: 20px; /* More space below h2 */
+  color: #343a40;
+}
+
+.cart-items-list {
+  margin-bottom: 40px; /* More space before order summary */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center; /* Vertically align items better */
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 20px; /* More padding */
+  margin-bottom: 20px; /* More space between items */
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.cart-item-image {
+  width: 120px; /* Larger image */
+  height: 120px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  margin-right: 25px; /* More space next to image */
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-details h2 { /* Product name in cart */
+  font-size: 1.3em; /* Larger product name */
+  margin-bottom: 8px;
+  color: #343a40;
+}
+
+.cart-item-details p {
+  margin-bottom: 8px;
+  color: #6c757d;
+  font-size: 0.95em;
+}
+
+.cart-item-quantity {
+  margin: 10px 0; /* More vertical space */
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-quantity label {
+  margin-right: 10px;
+  font-size: 0.9em;
+  color: #495057;
+}
+
+.cart-item-quantity input {
+  width: 50px; /* Slightly narrower */
+  padding: 8px; /* More padding */
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  text-align: center;
+  font-size: 1em;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 15px; /* Slightly more padding */
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 0.9em;
+  margin-top: 10px; /* Space above remove button */
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.order-summary {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 25px; /* More padding */
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.order-summary h2 {
+  text-align: center;
+  margin-bottom: 25px; /* More space */
+  font-size: 1.8em; /* Larger summary title */
+}
+
+.order-summary p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px; /* More space */
+  font-size: 1.1em;
+  color: #495057;
+}
+.order-summary p span:last-child {
+  font-weight: bold;
+}
+
+
+.order-summary h3 { /* Total */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* More space */
+  padding-top: 20px; /* More space */
+  border-top: 2px solid #007bff; /* Emphasize total with primary color border */
+  font-size: 1.4em; /* Larger total */
+  color: #343a40;
+}
+.order-summary h3 span:last-child {
+  color: #007bff; /* Primary color for total amount */
+}
+
+
+.buy-button {
+  background-color: #28a745; /* Green for buy */
+  color: white;
+  border: none;
+  padding: 15px 25px; /* Larger button */
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+  font-size: 1.2em; /* Larger text */
+  width: 100%;
+  margin-top: 25px; /* More space */
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px; /* Add some letter spacing */
+}
+
+.buy-button:hover {
+  background-color: #218838;
+  transform: scale(1.02); /* Slight scale on hover */
+}
+
+.buy-button:active {
+  transform: scale(0.98); /* Click effect */
+}
+
+.cart-page > h2 { /* "Your cart is empty" message */
+  text-align: center;
+  margin-top: 50px;
+  color: #6c757d;
+}
